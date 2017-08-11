@@ -1,0 +1,6 @@
+:root {
+  --tl-unit: 10px;
+  --tl-font-size-small: calc(1.4 * var(--tl-unit));
+  --tl-font-size-normal: calc(1.6 * var(--tl-unit));
+  --tl-font-size-big: calc(1.8 * var(--tl-unit));
+}
