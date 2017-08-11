@@ -1,0 +1,22 @@
+{
+  "name": "@teamleader/ui-typography",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Teamleader UI typography",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamleadercrm/ui-typography.git"
+  },
+  "keywords": [
+    "teamleader",
+    "ui",
+    "typography"
+  ],
+  "author": "Teamleader <development@teamleader.eu> (https://www.teamleader.eu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamleadercrm/ui-typography/issues"
+  },
+  "homepage": "https://github.com/teamleadercrm/ui-typography#readme"
+}
