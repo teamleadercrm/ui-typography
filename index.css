@@ -1,6 +1,20 @@
 :root {
   --tl-unit: 10px;
+
+  --tl-font-family-text: 'proximanova', trebuchet ms, Verdana, 'Arial', sans-serif;
+
+  --tl-font-size-tiny: calc(1.2 * var(--tl-unit));
   --tl-font-size-small: calc(1.4 * var(--tl-unit));
-  --tl-font-size-normal: calc(1.6 * var(--tl-unit));
-  --tl-font-size-big: calc(1.8 * var(--tl-unit));
+  --tl-font-size-regular: calc(1.6 * var(--tl-unit));
+  --tl-font-size-large: calc(2.0 * var(--tl-unit));
+  --tl-font-size-x-large: calc(3.2 * var(--tl-unit));
+
+  --tl-font-weight-regular: 400;
+  --tl-font-weight-semi-bold: 500;
+  --tl-font-weight-bold: 600;
+
+  --tl-line-height-small: calc(1.8 * var(--tl-unit));
+  --tl-line-height-regular: calc(2.1 * var(--tl-unit));
+  --tl-line-height-large: calc(2.4 * var(--tl-unit));
+  --tl-line-height-x-large: calc(3.6 * var(--tl-unit));
 }
