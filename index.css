@@ -4,97 +4,127 @@
   --font-family-regular: 'ProximaNova-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
   --font-family-medium: 'ProximaNova-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
   --font-family-semi-bold: 'ProximaNova-Semibold', trebuchet ms, Verdana, 'Arial', sans-serif;
-
-  --font-size-tiny: calc(1.2 * var(--unit));
-  --font-size-small: calc(1.4 * var(--unit));
-  --font-size-regular: calc(1.6 * var(--unit));
-  --font-size-large: calc(2.0 * var(--unit));
-  --font-size-x-large: calc(3.2 * var(--unit));
-
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semi-bold: 600;
-
-  --line-height-small: calc(1.8 * var(--unit));
-  --line-height-regular: calc(2.1 * var(--unit));
-  --line-height-large: calc(2.4 * var(--unit));
-  --line-height-x-large: calc(3.6 * var(--unit));
+  --font-family-bold: 'ProximaNova-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
 }
 
-/*@font-face {*/
-  /*font-family: 'ProximaNova-Regular';*/
-  /*font-weight: 400;*/
-  /*src: url('fonts/304A19_67_0.eot');*/
-  /*src: url('fonts/304A19_67_0.eot?#iefix') format('embedded-opentype'),*/
-       /*url('fonts/304A19_67_0.woff2') format('woff2'),*/
-       /*url('fonts/304A19_67_0.woff') format('woff'),*/
-       /*url('fonts/304A19_67_0.ttf') format('truetype');*/
-/*}*/
-
-/*@font-face {*/
-  /*font-family: 'ProximaNova-Medium';*/
-  /*font-weight: 500;*/
-  /*src: url('fonts/304A19_65_0.eot');*/
-  /*src: url('fonts/304A19_65_0.eot?#iefix') format('embedded-opentype'),*/
-       /*url('fonts/304A19_65_0.woff2') format('woff2'),*/
-       /*url('fonts/304A19_65_0.woff') format('woff'),*/
-       /*url('fonts/304A19_65_0.ttf') format('truetype');*/
-/*}*/
-
-/*@font-face {*/
-  /*font-family: 'ProximaNova-Semibold';*/
-  /*font-weight: 600;*/
-  /*src: url('fonts/304A19_69_0.eot');*/
-  /*src: url('fonts/304A19_69_0.eot?#iefix') format('embedded-opentype'),*/
-       /*url('fonts/304A19_69_0.woff2') format('woff2'),*/
-       /*url('fonts/304A19_69_0.woff') format('woff'),*/
-       /*url('fonts/304A19_69_0.ttf') format('truetype');*/
-/*}*/
-
-.heading-large {
-  font-family: var(--font-family-regular);
-  font-size: var(--font-size-x-large);
-  line-height: var(--line-height-x-large);
+@font-face {
+  font-display: swap;
+  font-family: 'ProximaNova-Regular';
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Regular.eot');
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Regular.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Regular.woff') format('woff'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Regular.ttf') format('truetype');
 }
 
-.heading-medium {
-  font-family: var(--font-family-medium);
-  font-size: var(--font-size-large);
-  line-height: var(--line-height-large);
+@font-face {
+  font-display: swap;
+  font-family: 'ProximaNova-Medium';
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Medium.eot');
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Medium.eot?#iefix') format('embedded-opentype'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Medium.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Medium.woff') format('woff'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Medium.ttf') format('truetype');
 }
 
-.heading-regular {
-  font-family: var(--font-family-semi-bold);
-  font-size: var(--font-size-regular);
-  line-height: var(--line-height-regular);
+@font-face {
+  font-display: swap;
+  font-family: 'ProximaNova-Semibold';
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.eot');
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.woff') format('woff'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.ttf') format('truetype');
 }
 
-.heading-large a,
-.heading-medium a,
-.heading-regular a {
+@font-face {
+  font-display: swap;
+  font-family: 'ProximaNova-Bold';
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Bold.eot');
+  src: url('https://static.teamleader.eu/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Bold.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Bold.woff') format('woff'),
+       url('https://static.teamleader.eu/fonts/ProximaNova-Bold.ttf') format('truetype');
+}
+
+.heading,
+.text {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+.heading {
+  font-weight: var(--font-weight);
+}
+
+.text {
+  strong {
+    font-family: var(--font-family-semi-bold);
+    font-weight: 500;
+  }
+}
+
+.heading-1 {
+  --font-family: var(--font-family-semi-bold);
+  --font-size: calc(2.5 * var(--unit));
+  --font-weight: 500;
+  --line-height: calc(3.0 * var(--unit));
+}
+
+.heading-2 {
+  --font-family: var(--font-family-medium);
+  --font-size: calc(2.0 * var(--unit));
+  --font-weight: 600;
+  --line-height: calc(2.4 * var(--unit));
+}
+
+.heading-3 {
+  --font-family: var(--font-family-semi-bold);
+  --font-size: calc(1.6 * var(--unit));
+  --font-weight: 500;
+  --line-height: calc(2.1 * var(--unit));
+}
+
+.heading-4 {
+  --font-family: var(--font-family-bold);
+  --font-size: calc(1.24 * var(--unit));
+  --font-weight: 500;
+  --line-height: calc(1.8 * var(--unit));
+  letter-spacing: .25px;
+  text-transform: uppercase;
+}
+
+.heading a {
   text-decoration: none;
 }
 
-.heading-large a:hover,
-.heading-medium a:hover,
-.heading-regular a:hover {
+.heading a:hover {
   text-decoration: underline;
 }
 
 .text-body {
-  font-family: var(--font-family-regular);
-  font-size: var(--font-size-regular);
-  line-height: var(--line-height-large);
+  --font-family: var(--font-family-regular);
+  --font-size: calc(1.6 * var(--unit));
+  --line-height: calc(2.4 * var(--unit));
 }
 
 .text-small {
-  font-family: var(--font-family-regular);
-  font-size: var(--font-size-small);
-  line-height: var(--line-height-small);
+  --font-family: var(--font-family-regular);
+  --font-size: calc(1.4 * var(--unit));
+  --line-height: calc(1.8 * var(--unit));
 }
 
 .text-tiny {
-  font-family: var(--font-family-medium);
-  font-size: var(--font-size-tiny);
-  line-height: var(--line-height-small);
+  --font-family: var(--font-family-regular);
+  --font-size: calc(1.2 * var(--unit));
+  --line-height: calc(1.8 * var(--unit));
+}
+
+.monospaced {
+  font-feature-settings: "tnum" on;
+}
+
+.old-style {
+  font-variant: oldstyle-nums;
 }
