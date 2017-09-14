@@ -73,9 +73,9 @@
 }
 
 .heading-2 {
-  --font-family: var(--font-family-medium);
+  --font-family: var(--font-family-semi-bold);
   --font-size: calc(2.0 * var(--unit));
-  --font-weight: 600;
+  --font-weight: 500;
   --line-height: calc(2.4 * var(--unit));
 }
 
