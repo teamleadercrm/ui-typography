@@ -49,14 +49,7 @@
 
 .heading,
 .text {
-  font-family: var(--font-family);
-  font-size: var(--font-size);
-  line-height: var(--line-height);
   margin: 0;
-}
-
-.heading {
-  font-weight: var(--font-weight);
 }
 
 .text {
@@ -67,31 +60,31 @@
 }
 
 .heading-1 {
-  --font-family: var(--font-family-semi-bold);
-  --font-size: calc(2.5 * var(--unit));
-  --font-weight: 500;
-  --line-height: calc(3.0 * var(--unit));
+  font-family: var(--font-family-semi-bold);
+  font-size: calc(2.5 * var(--unit));
+  font-weight: 500;
+  line-height: calc(3.0 * var(--unit));
 }
 
 .heading-2 {
-  --font-family: var(--font-family-semi-bold);
-  --font-size: calc(2.0 * var(--unit));
-  --font-weight: 500;
-  --line-height: calc(2.4 * var(--unit));
+  font-family: var(--font-family-semi-bold);
+  font-size: calc(2.0 * var(--unit));
+  font-weight: 500;
+  line-height: calc(2.4 * var(--unit));
 }
 
 .heading-3 {
-  --font-family: var(--font-family-semi-bold);
-  --font-size: calc(1.6 * var(--unit));
-  --font-weight: 500;
-  --line-height: calc(2.1 * var(--unit));
+  font-family: var(--font-family-semi-bold);
+  font-size: calc(1.6 * var(--unit));
+  font-weight: 500;
+  line-height: calc(2.1 * var(--unit));
 }
 
 .heading-4 {
-  --font-family: var(--font-family-bold);
-  --font-size: calc(1.24 * var(--unit));
-  --font-weight: 500;
-  --line-height: calc(1.8 * var(--unit));
+  font-family: var(--font-family-bold);
+  font-size: calc(1.24 * var(--unit));
+  font-weight: 500;
+  line-height: calc(1.8 * var(--unit));
   letter-spacing: .25px;
   text-transform: uppercase;
 }
@@ -105,21 +98,21 @@
 }
 
 .text-body {
-  --font-family: var(--font-family-regular);
-  --font-size: calc(1.6 * var(--unit));
-  --line-height: calc(2.4 * var(--unit));
+  font-family: var(--font-family-regular);
+  font-size: calc(1.6 * var(--unit));
+  line-height: calc(2.4 * var(--unit));
 }
 
 .text-small {
-  --font-family: var(--font-family-regular);
-  --font-size: calc(1.4 * var(--unit));
-  --line-height: calc(1.8 * var(--unit));
+  font-family: var(--font-family-regular);
+  font-size: calc(1.4 * var(--unit));
+  line-height: calc(1.8 * var(--unit));
 }
 
 .text-tiny {
-  --font-family: var(--font-family-regular);
-  --font-size: calc(1.2 * var(--unit));
-  --line-height: calc(1.8 * var(--unit));
+  font-family: var(--font-family-regular);
+  font-size: calc(1.2 * var(--unit));
+  line-height: calc(1.8 * var(--unit));
 }
 
 .monospaced {
