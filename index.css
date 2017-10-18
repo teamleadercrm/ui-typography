@@ -120,5 +120,5 @@
 }
 
 .old-styled-number {
-  font-variant: oldstyle-nums;
+  font-variant-numeric: oldstyle-nums;
 }
