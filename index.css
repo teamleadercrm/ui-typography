@@ -47,11 +47,6 @@
        url('https://static.teamleader.eu/fonts/ProximaNova-Bold.ttf') format('truetype');
 }
 
-.heading,
-.text {
-  margin: 0;
-}
-
 .text {
   strong {
     font-family: var(--font-family-semi-bold);
