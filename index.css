@@ -1,86 +1,74 @@
 :root {
   --unit: 10px;
 
-  --font-family-regular: 'ProximaNova-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-medium: 'ProximaNova-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-semi-bold: 'ProximaNova-Semibold', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-bold: 'ProximaNova-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-regular: 'Inter-UI-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-medium: 'Inter-UI-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-bold: 'Inter-UI-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-black: 'Inter-UI-Black', trebuchet ms, Verdana, 'Arial', sans-serif;
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'ProximaNova-Regular';
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Regular.eot');
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Regular.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Regular.woff') format('woff'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-family: 'Inter-UI-Regular';
+  src: url('https://static.teamleader.eu/fonts/Inter-UI-Regular.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-UI-Regular.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'ProximaNova-Medium';
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Medium.eot');
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Medium.eot?#iefix') format('embedded-opentype'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Medium.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Medium.woff') format('woff'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Medium.ttf') format('truetype');
+  font-family: 'Inter-UI-Medium';
+  src: url('https://static.teamleader.eu/fonts/Inter-UI-Medium.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-UI-Medium.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'ProximaNova-Semibold';
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.eot');
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.woff') format('woff'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Semibold.ttf') format('truetype');
+  font-family: 'Inter-UI-Bold';
+  src: url('https://static.teamleader.eu/fonts/Inter-UI-Bold.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-UI-Bold.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'ProximaNova-Bold';
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Bold.eot');
-  src: url('https://static.teamleader.eu/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Bold.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Bold.woff') format('woff'),
-       url('https://static.teamleader.eu/fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-family: 'Inter-UI-Black';
+  src: url('https://static.teamleader.eu/fonts/Inter-UI-Black.woff2') format('woff2'),
+  url('https://static.teamleader.eu/fonts/Inter-UI-Black.woff') format('woff');
 }
 
 .text {
   strong {
-    font-family: var(--font-family-semi-bold);
+    font-family: var(--font-family-medium);
     font-weight: 500;
   }
 }
 
 .heading-1 {
-  font-family: var(--font-family-semi-bold);
-  font-size: calc(2.5 * var(--unit));
+  font-family: var(--font-family-medium);
+  font-size: calc(2.4 * var(--unit));
   font-weight: 500;
   line-height: calc(3.0 * var(--unit));
 }
 
 .heading-2 {
-  font-family: var(--font-family-semi-bold);
+  font-family: var(--font-family-medium);
   font-size: calc(2.0 * var(--unit));
   font-weight: 500;
   line-height: calc(2.4 * var(--unit));
 }
 
 .heading-3 {
-  font-family: var(--font-family-semi-bold);
-  font-size: calc(1.6 * var(--unit));
+  font-family: var(--font-family-medium);
+  font-size: calc(1.8 * var(--unit));
   font-weight: 500;
-  line-height: calc(2.1 * var(--unit));
+  line-height: calc(2.4 * var(--unit));
 }
 
 .heading-4 {
-  font-family: var(--font-family-bold);
-  font-size: calc(1.24 * var(--unit));
-  font-weight: 500;
+  font-family: var(--font-family-black);
+  font-size: calc(1.2 * var(--unit));
+  font-weight: 900;
   line-height: calc(1.8 * var(--unit));
-  letter-spacing: .25px;
+  letter-spacing: .6px;
   text-transform: uppercase;
 }
 
@@ -112,8 +100,4 @@
 
 .monospaced {
   font-feature-settings: "tnum" on;
-}
-
-.old-styled-number {
-  font-variant-numeric: oldstyle-nums;
 }
