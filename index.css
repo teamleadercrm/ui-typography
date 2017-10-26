@@ -101,7 +101,3 @@
 .monospaced {
   font-feature-settings: "tnum" on;
 }
-
-.old-styled-number {
-  font-variant-numeric: oldstyle-nums;
-}
