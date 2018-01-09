@@ -51,16 +51,16 @@
 
 .heading-2 {
   font-family: var(--font-family-medium);
-  font-size: calc(2.0 * var(--unit));
+  font-size: calc(1.8 * var(--unit));
   font-weight: 500;
   line-height: calc(2.4 * var(--unit));
 }
 
 .heading-3 {
   font-family: var(--font-family-medium);
-  font-size: calc(1.8 * var(--unit));
+  font-size: calc(1.6 * var(--unit));
   font-weight: 500;
-  line-height: calc(2.4 * var(--unit));
+  line-height: calc(2.1 * var(--unit));
 }
 
 .heading-4 {
