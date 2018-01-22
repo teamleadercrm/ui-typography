@@ -37,8 +37,8 @@
 
 .text {
   strong {
-    font-family: var(--font-family-medium);
-    font-weight: 500;
+    font-family: var(--font-family-bold);
+    font-weight: 700;
   }
 }
 
