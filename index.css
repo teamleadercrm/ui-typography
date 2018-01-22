@@ -35,6 +35,14 @@
   url('https://static.teamleader.eu/fonts/Inter-UI-Black.woff') format('woff');
 }
 
+.heading,
+.text {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-size-adjust: 100%;
+}
+
 .text {
   strong {
     font-family: var(--font-family-bold);
