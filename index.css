@@ -80,19 +80,19 @@
   text-decoration: underline;
 }
 
-.text-body {
+.text-display {
   font-family: var(--font-family-regular);
   font-size: calc(1.6 * var(--unit));
   line-height: calc(2.4 * var(--unit));
 }
 
-.text-small {
+.text-body {
   font-family: var(--font-family-regular);
   font-size: calc(1.4 * var(--unit));
-  line-height: calc(1.8 * var(--unit));
+  line-height: calc(2.1 * var(--unit));
 }
 
-.text-tiny {
+.text-small {
   font-family: var(--font-family-regular);
   font-size: calc(1.2 * var(--unit));
   line-height: calc(1.8 * var(--unit));
