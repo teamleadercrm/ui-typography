@@ -51,7 +51,7 @@
 }
 
 .heading-1 {
-  font-family: var(--font-family-medium);
+  font-family: var(--font-family-bold);
   font-size: calc(2.4 * var(--unit));
   font-weight: normal;
   line-height: calc(3.0 * var(--unit));
