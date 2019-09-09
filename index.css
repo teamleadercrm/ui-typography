@@ -1,38 +1,38 @@
 :root {
   --unit: 10px;
 
-  --font-family-regular: 'Inter-UI-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-medium: 'Inter-UI-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-bold: 'Inter-UI-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-black: 'Inter-UI-Black', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-regular: 'Inter-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-medium: 'Inter-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-bold: 'Inter-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-black: 'Inter-Black', trebuchet ms, Verdana, 'Arial', sans-serif;
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Inter-UI-Regular';
-  src: url('https://static.teamleader.eu/fonts/Inter-UI-Regular.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-UI-Regular.woff') format('woff');
+  font-family: 'Inter-Regular';
+  src: url('https://static.teamleader.eu/fonts/Inter-Regular.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-Regular.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Inter-UI-Medium';
-  src: url('https://static.teamleader.eu/fonts/Inter-UI-Medium.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-UI-Medium.woff') format('woff');
+  font-family: 'Inter-Medium';
+  src: url('https://static.teamleader.eu/fonts/Inter-Medium.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-Medium.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Inter-UI-Bold';
-  src: url('https://static.teamleader.eu/fonts/Inter-UI-Bold.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-UI-Bold.woff') format('woff');
+  font-family: 'Inter-Bold';
+  src: url('https://static.teamleader.eu/fonts/Inter-Bold.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-Bold.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Inter-UI-Black';
-  src: url('https://static.teamleader.eu/fonts/Inter-UI-Black.woff2') format('woff2'),
-  url('https://static.teamleader.eu/fonts/Inter-UI-Black.woff') format('woff');
+  font-family: 'Inter-Black';
+  src: url('https://static.teamleader.eu/fonts/Inter-Black.woff2') format('woff2'),
+  url('https://static.teamleader.eu/fonts/Inter-Black.woff') format('woff');
 }
 
 .heading,
