@@ -109,3 +109,9 @@
 .monospaced {
   font-feature-settings: "tnum" on;
 }
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
