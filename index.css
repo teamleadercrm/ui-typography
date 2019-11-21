@@ -88,6 +88,13 @@
   text-transform: uppercase;
 }
 
+.heading-5 {
+    font-family: var(--font-family-semi-bold);
+    font-size: calc(1.4 * var(--unit));
+    font-weight: normal;
+    line-height: calc(1.8 * var(--unit));
+}
+
 .heading a {
   text-decoration: none;
 }
