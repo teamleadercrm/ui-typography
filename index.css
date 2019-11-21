@@ -53,7 +53,7 @@
 
 .text {
   strong {
-    font-family: var(--font-family-bold);
+    font-family: var(--font-family-semi-bold);
     font-weight: normal;
   }
 }
