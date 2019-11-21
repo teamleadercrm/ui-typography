@@ -3,6 +3,7 @@
 
   --font-family-regular: 'Inter-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
   --font-family-medium: 'Inter-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-semi-bold: 'Inter-SemiBold', trebuchet ms, Verdana, 'Arial', sans-serif;
   --font-family-bold: 'Inter-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
   --font-family-black: 'Inter-Black', trebuchet ms, Verdana, 'Arial', sans-serif;
 }
@@ -19,6 +20,13 @@
   font-family: 'Inter-Medium';
   src: url('https://static.teamleader.eu/fonts/Inter-Medium.woff2') format('woff2'),
        url('https://static.teamleader.eu/fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter-SemiBold';
+  src: url('https://static.teamleader.eu/fonts/Inter-SemiBold.woff2') format('woff2'),
+       url('https://static.teamleader.eu/fonts/Inter-SemiBold.woff') format('woff');
 }
 
 @font-face {
