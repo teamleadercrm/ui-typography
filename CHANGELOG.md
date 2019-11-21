@@ -2,8 +2,6 @@
 
 ### Added
 
-- `.heading-5`: added `heading-5` which is semi bold, has a `font-size 14px` and a `line-height 18px`. ([@driesd](https://github.com/driesd) in [#11](https://github.com/teamleadercrm/ui-typography/pull/11))
-
 ### Changed
 
 ### Deprecated
@@ -11,6 +9,12 @@
 ### Removed
 
 ### Fixed
+
+## [0.2.2] - 2019-11-21
+
+### Added
+
+- `.heading-5`: added `heading-5` which is semi bold, has a `font-size 14px` and a `line-height 18px`. ([@driesd](https://github.com/driesd) in [#11](https://github.com/teamleadercrm/ui-typography/pull/11))
 
 ## [0.2.1] - 2019-09-19
 
