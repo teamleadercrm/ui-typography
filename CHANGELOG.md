@@ -14,7 +14,13 @@
 
 ### Added
 
+- `@font-face` added `SemiBold`. ([@driesd](https://github.com/driesd) in [#11](https://github.com/teamleadercrm/ui-typography/pull/11))
 - `.heading-5`: added `heading-5` which is semi bold, has a `font-size 14px` and a `line-height 18px`. ([@driesd](https://github.com/driesd) in [#11](https://github.com/teamleadercrm/ui-typography/pull/11))
+
+### Changed
+
+- `.heading-1`: changed font-family from Bold to SemiBold. ([@driesd](https://github.com/driesd) in [#11](https://github.com/teamleadercrm/ui-typography/pull/11))
+- `.text`: changed strong-tag font-family from Bold to SemiBold. ([@driesd](https://github.com/driesd) in [#11](https://github.com/teamleadercrm/ui-typography/pull/11))
 
 ## [0.2.1] - 2019-09-19
 
