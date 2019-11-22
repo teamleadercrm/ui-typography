@@ -115,6 +115,12 @@
   line-height: calc(2.1 * var(--unit));
 }
 
+.text-body-compact {
+  font-family: var(--font-family-regular);
+  font-size: calc(1.4 * var(--unit));
+  line-height: calc(1.8 * var(--unit));
+}
+
 .text-small {
   font-family: var(--font-family-regular);
   font-size: calc(1.2 * var(--unit));

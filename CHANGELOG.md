@@ -10,6 +10,12 @@
 
 ### Fixed
 
+## [0.2.3] - 2019-11-22
+
+### Added
+
+- `.text-body-compact`: added `text-body-compact` which has a `regular weight`, `font-size 14px` and a `line-height 18px`. ([@driesd](https://github.com/driesd) in [#12](https://github.com/teamleadercrm/ui-typography/pull/12))
+
 ## [0.2.2] - 2019-11-21
 
 ### Added
