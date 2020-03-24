@@ -49,40 +49,34 @@
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-size-adjust: 100%;
+  font-weight: normal;
 }
 
-.text {
-  strong {
-    font-family: var(--font-family-semi-bold);
-    font-weight: normal;
-  }
+.text strong {
+  font-family: var(--font-family-semi-bold);
 }
 
 .heading-1 {
   font-family: var(--font-family-semi-bold);
   font-size: calc(2.4 * var(--unit));
-  font-weight: normal;
   line-height: calc(3.0 * var(--unit));
 }
 
 .heading-2 {
   font-family: var(--font-family-medium);
   font-size: calc(1.8 * var(--unit));
-  font-weight: normal;
   line-height: calc(2.4 * var(--unit));
 }
 
 .heading-3 {
   font-family: var(--font-family-medium);
   font-size: calc(1.6 * var(--unit));
-  font-weight: normal;
   line-height: calc(2.1 * var(--unit));
 }
 
 .heading-4 {
   font-family: var(--font-family-bold);
   font-size: calc(1.2 * var(--unit));
-  font-weight: normal;
   line-height: calc(1.8 * var(--unit));
   letter-spacing: .6px;
   text-transform: uppercase;
@@ -91,7 +85,6 @@
 .heading-5 {
     font-family: var(--font-family-semi-bold);
     font-size: calc(1.4 * var(--unit));
-    font-weight: normal;
     line-height: calc(1.8 * var(--unit));
 }
 
