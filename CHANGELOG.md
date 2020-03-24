@@ -10,6 +10,14 @@
 
 ### Fixed
 
+## [0.2.4] - 2020-03-24
+
+### Added
+
+- `.ui-text-display`: added `ui-text-display` which has a `medium weight`, `font-size 16px` and a `line-height 24px`. ([@driesd](https://github.com/driesd) in [#13](https://github.com/teamleadercrm/ui-typography/pull/13))
+- `.ui-text-body`: added `ui-text-body` which has a `medium weight`, `font-size 14px` and a `line-height 18px`. ([@driesd](https://github.com/driesd) in [#13](https://github.com/teamleadercrm/ui-typography/pull/13))
+- `.ui-text-small`: added `ui-text-small` which has a `medium weight`, `font-size 12px` and a `line-height 18px`. ([@driesd](https://github.com/driesd) in [#13](https://github.com/teamleadercrm/ui-typography/pull/13))
+
 ## [0.2.3] - 2019-11-22
 
 ### Added
