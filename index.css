@@ -44,7 +44,8 @@
 }
 
 .heading,
-.text {
+.text,
+.ui-text {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -52,8 +53,16 @@
   font-weight: normal;
 }
 
+.ui-text {
+  font-family: var(--font-family-medium);
+}
+
 .text strong {
   font-family: var(--font-family-semi-bold);
+}
+
+.ui-text strong {
+  font-family: var(--font-family-bold);
 }
 
 .heading-1 {
@@ -116,6 +125,21 @@
 
 .text-small {
   font-family: var(--font-family-regular);
+  font-size: calc(1.2 * var(--unit));
+  line-height: calc(1.8 * var(--unit));
+}
+
+.ui-text-display {
+  font-size: calc(1.6 * var(--unit));
+  line-height: calc(2.4 * var(--unit));
+}
+
+.ui-text-body {
+  font-size: calc(1.4 * var(--unit));
+  line-height: calc(1.8 * var(--unit));
+}
+
+.ui-text-small {
   font-size: calc(1.2 * var(--unit));
   line-height: calc(1.8 * var(--unit));
 }
