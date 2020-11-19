@@ -59,14 +59,16 @@
 
 .text strong {
   font-family: var(--font-family-semi-bold);
+  font-weight: normal;
 }
 
 .ui-text strong {
   font-family: var(--font-family-bold);
+  font-weight: normal;
 }
 
 .heading-1 {
-  font-family: var(--font-family-semi-bold);
+  font-family: var(--font-family-bold);
   font-size: calc(2.4 * var(--unit));
   line-height: calc(3.0 * var(--unit));
 }

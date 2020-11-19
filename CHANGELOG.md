@@ -10,6 +10,16 @@
 
 ### Fixed
 
+## [1.0.0] - 2020-11-19
+
+### Changed
+
+- `.heading-1`: changed font-family from SemiBold to Bold. ([@driesd](https://github.com/driesd) in [#14])
+
+### Fixed
+
+- `strong`: fixed the font-weight of `strong` elements inside text & ui-text. ([@driesd](https://github.com/driesd) in [#14])
+
 ## [0.2.4] - 2020-03-25
 
 ### Added
