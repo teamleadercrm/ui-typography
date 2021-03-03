@@ -10,6 +10,20 @@
 
 ### Fixed
 
+## [2.0.0] - 2021-03-03
+
+### Added
+
+- `Inter variable`: added variable font family (--font-family-inter). ([@driesd](https://github.com/driesd) in [#15])
+
+### Changed
+
+- :boom: `Inter variable`: changed the usage of separate font-weight specific fonts to use one variable font instead. ([@driesd](https://github.com/driesd) in [#15])
+
+### Removed
+
+-  :boom: `Inter`: removed all font-weight specific font families and their CSS variables (`--font-family-regular`, `--font-family-medium`, `--font-family-semi-bold`, `--font-family-bold`, `--font-family-black`). ([@driesd](https://github.com/driesd) in [#15])
+
 ## [1.0.0] - 2020-11-19
 
 ### Changed
