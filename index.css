@@ -1,46 +1,12 @@
 :root {
   --unit: 10px;
-
-  --font-family-regular: 'Inter-Regular', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-medium: 'Inter-Medium', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-semi-bold: 'Inter-SemiBold', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-bold: 'Inter-Bold', trebuchet ms, Verdana, 'Arial', sans-serif;
-  --font-family-black: 'Inter-Black', trebuchet ms, Verdana, 'Arial', sans-serif;
+  --font-family-inter: 'Inter', trebuchet ms, Verdana, 'Arial', sans-serif;
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'Inter-Regular';
-  src: url('https://static.teamleader.eu/fonts/Inter-Regular.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-Regular.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Inter-Medium';
-  src: url('https://static.teamleader.eu/fonts/Inter-Medium.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-Medium.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Inter-SemiBold';
-  src: url('https://static.teamleader.eu/fonts/Inter-SemiBold.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-SemiBold.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Inter-Bold';
-  src: url('https://static.teamleader.eu/fonts/Inter-Bold.woff2') format('woff2'),
-       url('https://static.teamleader.eu/fonts/Inter-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Inter-Black';
-  src: url('https://static.teamleader.eu/fonts/Inter-Black.woff2') format('woff2'),
-  url('https://static.teamleader.eu/fonts/Inter-Black.woff') format('woff');
+  font-family: 'Inter';
+  src: url('https://static.teamleader.eu/fonts/Inter.var.woff2') format('woff2');
 }
 
 .heading,
@@ -50,53 +16,55 @@
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-size-adjust: 100%;
-  font-weight: normal;
+  font-family: var(--font-family-inter);
 }
 
-.ui-text {
-  font-family: var(--font-family-medium);
+.text {
+  font-weight: 400;
 }
 
 .text strong {
-  font-family: var(--font-family-semi-bold);
-  font-weight: normal;
+  font-weight: 600;
+}
+
+.ui-text {
+  font-weight: 500;
 }
 
 .ui-text strong {
-  font-family: var(--font-family-bold);
-  font-weight: normal;
+  font-weight: 700;
 }
 
 .heading-1 {
-  font-family: var(--font-family-bold);
   font-size: calc(2.4 * var(--unit));
+  font-weight: 700;
   line-height: calc(3.0 * var(--unit));
 }
 
 .heading-2 {
-  font-family: var(--font-family-medium);
   font-size: calc(1.8 * var(--unit));
+  font-weight: 500;
   line-height: calc(2.4 * var(--unit));
 }
 
 .heading-3 {
-  font-family: var(--font-family-medium);
   font-size: calc(1.6 * var(--unit));
+  font-weight: 500;
   line-height: calc(2.1 * var(--unit));
 }
 
 .heading-4 {
-  font-family: var(--font-family-bold);
   font-size: calc(1.2 * var(--unit));
+  font-weight: 700;
   line-height: calc(1.8 * var(--unit));
   letter-spacing: .6px;
   text-transform: uppercase;
 }
 
 .heading-5 {
-    font-family: var(--font-family-semi-bold);
-    font-size: calc(1.4 * var(--unit));
-    line-height: calc(1.8 * var(--unit));
+  font-size: calc(1.4 * var(--unit));
+  font-weight: 600;
+  line-height: calc(1.8 * var(--unit));
 }
 
 .heading a {
@@ -108,25 +76,21 @@
 }
 
 .text-display {
-  font-family: var(--font-family-regular);
   font-size: calc(1.6 * var(--unit));
   line-height: calc(2.4 * var(--unit));
 }
 
 .text-body {
-  font-family: var(--font-family-regular);
   font-size: calc(1.4 * var(--unit));
   line-height: calc(2.1 * var(--unit));
 }
 
 .text-body-compact {
-  font-family: var(--font-family-regular);
   font-size: calc(1.4 * var(--unit));
   line-height: calc(1.8 * var(--unit));
 }
 
 .text-small {
-  font-family: var(--font-family-regular);
   font-size: calc(1.2 * var(--unit));
   line-height: calc(1.8 * var(--unit));
 }
