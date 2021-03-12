@@ -10,6 +10,12 @@
 
 ### Fixed
 
+## [2.0.1] - 2021-03-12
+
+### Added
+
+- `@font-face`: added font weight range to the font face definition. ([@driesd](https://github.com/driesd) in [#16])
+
 ## [2.0.0] - 2021-03-03
 
 ### Added
