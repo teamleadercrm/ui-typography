@@ -10,6 +10,12 @@
 
 ### Fixed
 
+## [2.0.2] - 2021-06-03
+
+### Changed
+
+- Changed the font url from static.teamleader.eu to static.focus.teamleader.eu
+
 ## [2.0.1] - 2021-03-12
 
 ### Added
