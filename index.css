@@ -111,7 +111,12 @@
   line-height: calc(1.8 * var(--unit));
 }
 
-.monospaced {
+/** 
+  Make sure all elements inherit the font-feature-settings
+  Firefox seems to have a bug causing no inheritance at all
+*/
+.monospaced,
+.monospaced * {
   font-feature-settings: "tnum" on;
 }
 
