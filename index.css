@@ -117,7 +117,7 @@
 */
 .monospaced,
 .monospaced * {
-  font-feature-settings: "tnum" on;
+  font-feature-settings: "tnum";
 }
 
 .overflow-ellipsis {
