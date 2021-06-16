@@ -10,7 +10,11 @@
 
 ### Fixed
 
-- Firefox not correctly applying inheritance to each element of a monospaced class ([@ArnaudWeyts](https://github.com/ArnaudWeyts) in [#18])
+## [2.0.3] - 2021-06-16
+
+### Fixed
+
+- Firefox not correctly applying inheritance to each element of a monospaced class ([@ArnaudWeyts](https://github.com/ArnaudWeyts) in [#18](https://github.com/teamleadercrm/ui-typography/pull/18))
 
 ## [2.0.2] - 2021-06-03
 
@@ -22,31 +26,31 @@
 
 ### Added
 
-- `@font-face`: added font weight range to the font face definition. ([@driesd](https://github.com/driesd) in [#16])
+- `@font-face`: added font weight range to the font face definition. ([@driesd](https://github.com/driesd) in [#16](https://github.com/teamleadercrm/ui-typography/pull/16))
 
 ## [2.0.0] - 2021-03-03
 
 ### Added
 
-- `Inter variable`: added variable font family (--font-family-inter). ([@driesd](https://github.com/driesd) in [#15])
+- `Inter variable`: added variable font family (--font-family-inter). ([@driesd](https://github.com/driesd) in [#15](https://github.com/teamleadercrm/ui-typography/pull/15))
 
 ### Changed
 
-- :boom: `Inter variable`: changed the usage of separate font-weight specific fonts to use one variable font instead. ([@driesd](https://github.com/driesd) in [#15])
+- :boom: `Inter variable`: changed the usage of separate font-weight specific fonts to use one variable font instead. ([@driesd](https://github.com/driesd) in [#15](https://github.com/teamleadercrm/ui-typography/pull/15))
 
 ### Removed
 
--  :boom: `Inter`: removed all font-weight specific font families and their CSS variables (`--font-family-regular`, `--font-family-medium`, `--font-family-semi-bold`, `--font-family-bold`, `--font-family-black`). ([@driesd](https://github.com/driesd) in [#15])
+- :boom: `Inter`: removed all font-weight specific font families and their CSS variables (`--font-family-regular`, `--font-family-medium`, `--font-family-semi-bold`, `--font-family-bold`, `--font-family-black`). ([@driesd](https://github.com/driesd) in [#15](https://github.com/teamleadercrm/ui-typography/pull/15))
 
 ## [1.0.0] - 2020-11-19
 
 ### Changed
 
-- `.heading-1`: changed font-family from SemiBold to Bold. ([@driesd](https://github.com/driesd) in [#14])
+- `.heading-1`: changed font-family from SemiBold to Bold. ([@driesd](https://github.com/driesd) in [#14](https://github.com/teamleadercrm/ui-typography/pull/14))
 
 ### Fixed
 
-- `strong`: fixed the font-weight of `strong` elements inside text & ui-text. ([@driesd](https://github.com/driesd) in [#14])
+- `strong`: fixed the font-weight of `strong` elements inside text & ui-text. ([@driesd](https://github.com/driesd) in [#14](https://github.com/teamleadercrm/ui-typography/pull/14))
 
 ## [0.2.4] - 2020-03-25
 
@@ -78,7 +82,7 @@
 
 ### Added
 
-- Added the `.overflow-ellipsis` selector which forces the text on one line and overflows with an ellipsis.  ([@driesd](https://github.com/driesd) in [#10](https://github.com/teamleadercrm/ui-typography/pull/10))
+- Added the `.overflow-ellipsis` selector which forces the text on one line and overflows with an ellipsis. ([@driesd](https://github.com/driesd) in [#10](https://github.com/teamleadercrm/ui-typography/pull/10))
 
 ## [0.2.0] - 2019-09-09
 
