@@ -10,6 +10,10 @@
 
 ### Fixed
 
+## [2.0.3] - 2021-06-16
+
+### Fixed
+
 - Firefox not correctly applying inheritance to each element of a monospaced class ([@ArnaudWeyts](https://github.com/ArnaudWeyts) in [#18])
 
 ## [2.0.2] - 2021-06-03
